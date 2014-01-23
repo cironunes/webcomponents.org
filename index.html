@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>WebComponents.org</title>
+    <meta name="description" content="The web platform specs that will change the way you build apps">
+    <meta name="viewport" content="width=device-width">
+    <meta name="google-site-verification" content="vE_TSC7WOaWmPWAQryKIW3zmibsq7sVDF6I1Tcfex7U">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="http://webcomponentsorg.github.io/webcomponents.org/css/main.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="http://webcomponentsorg.github.io/webcomponents.org/img/favicon.ico">
+
+    <!--[if lt IE 10]>
+    <link rel="stylesheet" media="all" href="http://webcomponentsorg.github.io/webcomponents.org/css/ielt10.css">
+    <![endif]-->
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+
+<div class="wrapper">
+    <header class="header">
+        <a class="logo" href="http://webcomponentsorg.github.io/webcomponents.org">
+            <img src="http://webcomponentsorg.github.io/webcomponents.org/img/logo.png" alt="WebComponents.org" width="246" height="158">
+        </a>
+        <h1 class="title">WebComponents.org</h1>
+        <h2 class="subtitle">The web platform specs that will change the way you build apps</h2>
+    </header>
+
+    <main class="card-container layout-home">
+        <div class="column-first">
+            <!-- What? -->
+<section class="card card-what">
+    <h3>What?</h3>
+    <p class="description">
+        WebComponents.org is where pioneers and community-members of the Web
+        Components ecosystem (like <em>Polymer</em>, <em>X-tags</em>, and other
+        interested parties) document web components best practices so that
+        others can follow the same path instead of needlessly striking out on
+        their own.
+    </p>
+</section>
+
+            <!-- Browser Support -->
+<section class="card card-support">
+    <h3>Browser Support</h3>
+    <table class="status-table">
+        <tr>
+            <td></td>
+            
+                <td>Chrome</td>
+            
+                <td>Opera</td>
+            
+                <td>Firefox</td>
+            
+                <td>Safari</td>
+            
+                <td>IE</td>
+            
+        </tr>
+        <tr>
+            <td><img title="Templates" src="http://webcomponentsorg.github.io/webcomponents.org/img/icon-status-templates.png" alt=""></td>
+            
+                <td><a title="Stable" href="http://www.chromestatus.com/features/5207287069147136" class="icon-status icon-status-green"></a></td>
+            
+                <td><a title="Stable" href="http://www.chromestatus.com/features/5207287069147136" class="icon-status icon-status-green"></a></td>
+            
+                <td><a title="Stable" href="http://caniuse.com/#feat=template" class="icon-status icon-status-green"></a></td>
+            
+                <td><a title="Not implemented yet"  class="icon-status icon-status-red"></a></td>
+            
+                <td><a title="Not implemented yet"  class="icon-status icon-status-red"></a></td>
+            
+        </tr>
+        <tr>
+            <td><img title="HTML Imports" src="http://webcomponentsorg.github.io/webcomponents.org/img/icon-status-htmlimports.png" alt=""></td>
+            
+                <td><a title="Flag" href="http://www.chromestatus.com/features/5144752345317376" class="icon-status icon-status-yellow"></a></td>
+            
+                <td><a title="Flag" href="http://www.chromestatus.com/features/5144752345317376" class="icon-status icon-status-yellow"></a></td>
+            
+                <td><a title="Bug" href="https://bugzilla.mozilla.org/show_bug.cgi?id=877072" class="icon-status icon-status-yellow"></a></td>
+            
+                <td><a title="Not implemented yet"  class="icon-status icon-status-red"></a></td>
+            
+                <td><a title="Not implemented yet"  class="icon-status icon-status-red"></a></td>
+            
+        </tr>
+        <tr>
+            <td><img title="Custom Elements" src="http://webcomponentsorg.github.io/webcomponents.org/img/icon-status-customelements.png" alt=""></td>
+            
+                <td><a title="Flag" href="http://www.chromestatus.com/features/4642138092470272" class="icon-status icon-status-yellow"></a></td>
+            
+                <td><a title="Flag" href="http://www.chromestatus.com/features/4642138092470272" class="icon-status icon-status-yellow"></a></td>
+            
+                <td><a title="Bug" href="https://bugzilla.mozilla.org/show_bug.cgi?id=811542" class="icon-status icon-status-yellow"></a></td>
+            
+                <td><a title="Not implemented yet"  class="icon-status icon-status-red"></a></td>
+            
+                <td><a title="Not implemented yet"  class="icon-status icon-status-red"></a></td>
+            
+        </tr>
+        <tr>
+            <td><img title="Shadow DOM" src="http://webcomponentsorg.github.io/webcomponents.org/img/icon-status-shadowdom.png" alt=""></td>
+            
+                <td><a title="Stable" href="http://www.chromestatus.com/features/5479141319114752" class="icon-status icon-status-green"></a></td>
+            
+                <td><a title="Stable" href="http://www.chromestatus.com/features/5479141319114752" class="icon-status icon-status-green"></a></td>
+            
+                <td><a title="Bug" href="https://bugzilla.mozilla.org/show_bug.cgi?id=806506" class="icon-status icon-status-yellow"></a></td>
+            
+                <td><a title="Not implemented yet"  class="icon-status icon-status-red"></a></td>
+            
+                <td><a title="Not implemented yet"  class="icon-status icon-status-red"></a></td>
+            
+        </tr>
+    </table>
+    <p class="status-credits">Data fetched from <a href="http://jonrimmer.github.io/are-we-componentized-yet/">Are We Componentized Yet?</a></p>
+</section>
+
+            <!-- Polyfills -->
+<section class="card card-links card-polyfills">
+    <h3>Polyfills</h3>
+    <ul class="link-list">
+        
+            <li>
+                <a href="http://www.polymer-project.org/">
+                    <img class="icon" src="http://webcomponentsorg.github.io/webcomponents.org/img/icon-polymer.png" alt="Polymer">
+                    <p class="title">Polymer</p>
+                    <p class="description">Polymer, from Google, is a new type of library for the web, built on top of Web
+Components, and designed to leverage the evolving web platform on modern
+browsers.</p>
+                </a>
+            </li>
+        
+            <li>
+                <a href="http://x-tags.org/">
+                    <img class="icon" src="http://webcomponentsorg.github.io/webcomponents.org/img/icon-xtags.png" alt="X-Tags">
+                    <p class="title">X-Tags</p>
+                    <p class="description">X-Tags is a small JavaScript library, created and supported by Mozilla, that
+brings Web Components Custom Element capabilities to all modern browsers.</p>
+                </a>
+            </li>
+        
+    </ul>
+</section>
+
+        </div>
+        <div class="column-middle">
+            <!-- Specs -->
+<section class="card card-links card-specs">
+    <h3>Specs</h3>
+    <ul class="link-list">
+        
+            <li>
+                <a href="http://www.w3.org/TR/components-intro/">
+                    <img class="icon" src="http://webcomponentsorg.github.io/webcomponents.org/img/icon-webcomponents.png" alt="Web Components">
+                    <p class="title">Web Components</p>
+                    <p class="description">This document is a non-normative reference, which provides an overview of Web
+Components. It summarizes the normative information in the respective
+specifications in easy-to-digest prose with illustrations.</p>
+                </a>
+            </li>
+        
+            <li>
+                <a href="http://www.w3.org/TR/custom-elements/">
+                    <img class="icon" src="http://webcomponentsorg.github.io/webcomponents.org/img/icon-customelements.png" alt="Custom Elements">
+                    <p class="title">Custom Elements</p>
+                    <p class="description">This specification describes the method for enabling the author to define and
+use new types of DOM elements in a document.</p>
+                </a>
+            </li>
+        
+            <li>
+                <a href="http://www.w3.org/TR/html-imports/">
+                    <img class="icon" src="http://webcomponentsorg.github.io/webcomponents.org/img/icon-htmlimports.png" alt="HTML Imports">
+                    <p class="title">HTML Imports</p>
+                    <p class="description">HTML Imports are a way to include and reuse HTML documents in other HTML
+documents.</p>
+                </a>
+            </li>
+        
+            <li>
+                <a href="http://www.w3.org/TR/html-templates/">
+                    <img class="icon" src="http://webcomponentsorg.github.io/webcomponents.org/img/icon-templates.png" alt="Templates">
+                    <p class="title">Templates</p>
+                    <p class="description">This specification describes a method for declaring inert DOM subtrees in HTML
+and manipulating them to instantiate document fragments with identical contents.</p>
+                </a>
+            </li>
+        
+            <li>
+                <a href="http://www.w3.org/TR/shadow-dom/">
+                    <img class="icon" src="http://webcomponentsorg.github.io/webcomponents.org/img/icon-shadowdom.png" alt="Shadow DOM">
+                    <p class="title">Shadow DOM</p>
+                    <p class="description">This specification describes a method of establishing and maintaining functional
+boundaries between DOM trees and how these trees interact with each other within
+a document, thus enabling better functional encapsulation within the DOM.</p>
+                </a>
+            </li>
+        
+    </ul>
+</section>
+
+            <!-- Discover -->
+<section class="card card-links card-discover">
+    <h3>Discover</h3>
+    <ul class="link-list">
+        
+            <li>
+                <a href="http://sindresorhus.com/bower-components/#!/search/web-components">
+                    <img class="icon" src="http://webcomponentsorg.github.io/webcomponents.org/img/icon-bower.png" alt="Bower">
+                    <p class="title">Bower</p>
+                    <p class="description">Bower is a package manager for the web, made by Twitter.</p>
+                </a>
+            </li>
+        
+            <li>
+                <a href="http://customelements.io/">
+                    <img class="icon" src="http://webcomponentsorg.github.io/webcomponents.org/img/icon-customelementsio.png" alt="CustomElements.io">
+                    <p class="title">CustomElements.io</p>
+                    <p class="description">A gallery to display Web Components created by the community.</p>
+                </a>
+            </li>
+        
+    </ul>
+</section>
+
+        </div>
+        <div class="column-last">
+            <!-- Articles -->
+<section class="card card-story card-articles">
+    <h3>Articles</h3>
+    
+        
+            <a class="story-content" href="http://webcomponentsorg.github.io/webcomponents.org/articles/web-components-best-practices">
+                
+                    <div class="story-image">
+                        <img src="http://webcomponentsorg.github.io/webcomponents.org/img/stories/web-components-best-practices.jpg" alt="Web Components Best Practices">
+                    </div>
+                
+                <p class="title">Web Components Best Practices</p>
+                <div class="description">
+                    <p>Web Components (WC) fall under a new platform feature that we&#39;d like developers
+to start embracing. The following is an initial list of best practices we
+advocate component authors consider to ensure their elements are good citizens
+in the WC ecosystem.</p>
+                </div>
+            </a>
+        
+    
+    <a class="see-all" href="http://webcomponentsorg.github.io/webcomponents.org/articles/">See all articles</a>
+</section>
+
+            <!-- Presentations -->
+<section class="card card-story card-presentations">
+    <h3>Presentations</h3>
+    
+        
+            <a class="story-content" href="http://webcomponentsorg.github.io/webcomponents.org/presentations/a-future-called-web-components-at-html5-la">
+                
+                    <div class="story-image">
+                        <img src="http://webcomponentsorg.github.io/webcomponents.org/img/stories/a-future-called-web-components-at-html5-la.jpg" alt="A future called Web Components">
+                    </div>
+                
+                <p class="title">A future called Web Components</p>
+                <div class="description">
+                    <p>Web Components are a collection of standards which are working their way
+through the W3C. Discover how this new concept formed by Templates,
+Decorators, Shadow DOM, Custom Elements, and HTML Imports will revolutionize the
+way we develop and interact on the web.</p>
+                </div>
+            </a>
+        
+    
+    <a class="see-all" href="http://webcomponentsorg.github.io/webcomponents.org/presentations/">See all presentations</a>
+</section>
+
+            <!-- Community -->
+<section class="card card-community">
+    <h3>Community</h3>
+    <ul class="profile-list">
+        <li>
+            <a href="https://twitter.com/zenorocha">
+                <img class="picture" src="https://2.gravatar.com/avatar/e190023b66e2b8aa73a842b106920c93" alt="Zeno Rocha">
+                <p class="name">Zeno</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/addyosmani">
+                <img class="picture" src="https://2.gravatar.com/avatar/96270e4c3e5e9806cf7245475c00b275" alt="Addy Osmani">
+                <p class="name">Addy</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/ebidel">
+                <img class="picture" src="https://2.gravatar.com/avatar/e7948aac7c52b26470be80311873a398" alt="Eric Bidelman">
+                <p class="name">Eric</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/brizabueno">
+                <img class="picture" src="https://2.gravatar.com/avatar/c272a0a8972473fdf231f2b2d897c242" alt="Briza Bueno">
+                <p class="name">Briza</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/jkomoros">
+                <img class="picture" src="https://lh5.googleusercontent.com/-WlbCSDZ9t5Y/AAAAAAAAAAI/AAAAAAAAC2M/A_HM2ovbT2o/s120-c/photo.jpg" alt="Alex Komoroske">
+                <p class="name">Alex</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/eduardolundgren">
+                <img class="picture" src="https://2.gravatar.com/avatar/42327de520e674a6d1686845b30778d0" alt="Eduardo Lundgren">
+                <p class="name" style="margin-left: -8px;">Eduardo</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/PascalPrecht">
+                <img class="picture" src="https://2.gravatar.com/avatar/b32bdb1fc9fdadeb45d7a1267fdd2fc4" alt="Pascal Precht">
+                <p class="name">Pascal</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/bernarddeluna">
+                <img class="picture" src="https://2.gravatar.com/avatar/bc16c9be1e05e65395487b78b1cc72c0" alt="Bernard De Luna">
+                <p class="name">Bernard</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/sindresorhus">
+                <img class="picture" src="https://2.gravatar.com/avatar/d36a92237c75c5337c17b60d90686bf9" alt="Sindre Sorhus">
+                <p class="name">Sindre</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com/rob_dodson">
+                <img class="picture" src="https://2.gravatar.com/avatar/95c3a3b33ea51545229c625bef42e343" alt="Rob Dodson">
+                <p class="name">Rob</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/WebComponentsOrg/webcomponents.org/graphs/contributors">
+                <p class="name" id="credits-link">and more!</p>
+            </a>
+        </li>
+    </ul>
+</section>
+
+        </div>
+    </main>
+</div>
+
+    <footer class="credits">
+        <p>Made with <span class="love">♥</span> by the <a href="https://github.com/WebComponentsOrg/webcomponents.org/graphs/contributors">WebComponents.org contributors.</a></p>
+    </footer>
+
+    <!--[if lt IE 9]>
+    <script src="http://webcomponentsorg.github.io/webcomponents.org/vendor/respond/respond.src.js"></script>
+    <![endif]-->
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-47408119-1', 'webcomponentsorg.github.io');
+      ga('send', 'pageview');
+    </script>
+</body>
+</html>
+
